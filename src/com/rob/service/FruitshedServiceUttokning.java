@@ -32,11 +32,11 @@ public class FruitshedServiceUttokning implements FruitShedService {
 
         System.out.println("++++ Utökning 2 +++++");
         System.out.println("id: " + lowestPrice.getId() + "\nPrice: " + FruitShedLogic.getTotal(lowestPrice));
-        System.out.println(FruitShedLogic.boughtFruits(lowestPrice) + "\n");
+        System.out.println(FruitShedLogic.getBoughtFruits(lowestPrice) + "\n");
 
         System.out.println("++++ Utökning 3 +++++");
         System.out.println("id: " + lowestPrice.getId() + "\nPrice: " + FruitShedLogic.getTotal(lowestPrice));
-        System.out.println(FruitShedLogic.boughtFruits(lowestPrice));
+        System.out.println(FruitShedLogic.getBoughtFruits(lowestPrice));
         System.out.println("No. of stores searched: " + fruitShedsWithPear.size());
 
         getFruitShedWithLowestAfterPurchase(fruitShedsWithPear);
@@ -57,7 +57,7 @@ public class FruitshedServiceUttokning implements FruitShedService {
 
         System.out.println("++++ Utökning 4 +++++");
         System.out.println("id: " + lowestPrice.getId() + "\nPrice: " + FruitShedLogic.getTotal(lowestPrice));
-        System.out.println(FruitShedLogic.boughtFruits(lowestPrice));
+        System.out.println(FruitShedLogic.getBoughtFruits(lowestPrice));
         System.out.println("No. of stores searched: " + fruitSheds.size());
     }
 }

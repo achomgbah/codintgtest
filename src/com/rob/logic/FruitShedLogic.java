@@ -11,7 +11,7 @@ public class FruitShedLogic {
         return basket != null;
     }
 
-    public static List<String> boughtFruits(FruitShed fruitShed) {
+    public static List<String> getBoughtFruits(FruitShed fruitShed) {
         Basket pears = fruitShed.getPears();
         Basket peaches = fruitShed.getPeaches();
         Basket cherries = fruitShed.getCherries();
